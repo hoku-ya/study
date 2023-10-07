@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 配列
+
 fruit=('banana' 'apple' 'grape')
 
 echo "${fruit[@]}" # 全表示

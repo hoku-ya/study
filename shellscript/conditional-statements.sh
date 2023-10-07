@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#条件分岐
+
 var=$1
 if test $var = blue;
 then
