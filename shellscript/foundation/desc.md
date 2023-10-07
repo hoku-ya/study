@@ -158,14 +158,14 @@ current directory↴\
 
 <br>
 
-- `read var1 var2 var3` # 入力結果から3個変数を設定
+- `read var1 var2 var3` # 入力結果から3個変数を設定→入力はスペースで区切る
 - `echo var1 = $var1, var2 = $var2, var3 = $var3`
 
 <br>
 
 - `read -p 'var1: 'var1` # 文字付きの標準入力
 - `read -sp 'password:' password` # シークレットモードでの標準入力
-- `read -a names` # 配列(Array)入力
+- `read -a names` # 配列(Array)入力→入力はスペースで区切る
 
 <br>
 
